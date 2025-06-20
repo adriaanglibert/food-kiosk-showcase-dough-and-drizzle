@@ -58,7 +58,7 @@ function Footer({ className, activePage }) {
               >
                 <img
                   className="footer__icon"
-                  src={`${activePage === 'SelectPage' ? '/images/icon_menu.svg' : '/images/icon_menu_light.svg'}`}
+                  src={activePage === 'SelectPage' ? `${basePath}/images/icon_menu.svg` : `${basePath}/images/icon_menu_light.svg`}
                   alt=""
                   aria-hidden="true"
                 />
@@ -76,7 +76,7 @@ function Footer({ className, activePage }) {
                 <div className='footer__cart-icon'>
                   <img
                     className="footer__icon"
-                    src={`${activePage === 'Cart' ? '/images/icon_cart_dark.svg' : '/images/icon_cart.svg'}`}
+                    src={activePage === 'Cart' ? `${basePath}/images/icon_cart_dark.svg` : `${basePath}/images/icon_cart.svg`}
                     alt=""
                     aria-hidden="true"
                   />

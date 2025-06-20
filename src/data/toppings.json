@@ -2,63 +2,63 @@
   {
     "title": "Dark Chocolate Ganache",
     "price": 0.50,
-    "image": "./images/ingredients/dark_chocolate_ganache.jpg",
+    "image": "images/ingredients/dark_chocolate_ganache.jpg",
     "category": "topping",
     "type": "ganache"
   },
   {
     "title": "White Chocolate Ganache",
     "price": 0.50,
-    "image": "./images/ingredients/white_chocolate_ganache.jpg",
+    "image": "images/ingredients/white_chocolate_ganache.jpg",
     "category": "topping",
     "type": "ganache"
   },
   {
     "title": "Passion Fruit Ganache",
     "price": 0.75,
-    "image": "./images/ingredients/passion_fruit_ganache.jpg",
+    "image": "images/ingredients/passion_fruit_ganache.jpg",
     "category": "topping",
     "type": "ganache"
   },
   {
     "title": "Vanilla Buttercream",
     "price": 0.50,
-    "image": "./images/ingredients/vanilla_buttercream.jpg",
+    "image": "images/ingredients/vanilla_buttercream.jpg",
     "category": "topping",
     "type": "buttercream"
   },
   {
     "title": "Rose Buttercream",
     "price": 0.75,
-    "image": "./images/ingredients/rose_buttercream.jpg",
+    "image": "images/ingredients/rose_buttercream.jpg",
     "category": "topping",
     "type": "buttercream"
   },
   {
     "title": "Biscoff Buttercream",
     "price": 0.75,
-    "image": "./images/ingredients/biscoff_buttercream.jpg",
+    "image": "images/ingredients/biscoff_buttercream.jpg",
     "category": "topping",
     "type": "buttercream"
   },
   {
     "title": "Sugar Glaze",
     "price": 0.50,
-    "image": "./images/ingredients/sugar_glaze.jpg",
+    "image": "images/ingredients/sugar_glaze.jpg",
     "category": "topping",
     "type": "glaze"
   },
   {
     "title": "Raspberry Glaze",
     "price": 0.75,
-    "image": "./images/ingredients/raspberry_glaze.jpg",
+    "image": "images/ingredients/raspberry_glaze.jpg",
     "category": "topping",
     "type": "glaze"
   },
   {
     "title": "Blackberry Glaze",
     "price": 0.75,
-    "image": "./images/ingredients/blackberry_glaze.jpg",
+    "image": "images/ingredients/blackberry_glaze.jpg",
     "category": "topping",
     "type": "glaze"
   }

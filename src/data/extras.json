@@ -2,64 +2,70 @@
   {
     "title": "Triple Chocolate Mix",
     "price": 0.10,
-    "image": "./images/ingredients/triple_chunks.jpg",
+    "image": "images/ingredients/triple_chunks.jpg",
     "category": "extra",
     "type": "chocolate"
   },
   {
     "title": "Crunchy Chocolates",
     "price": 0.15,
-    "image": "./images/ingredients/crunchy_chocolates.jpg",
+    "image": "images/ingredients/crunchy_chocolates.jpg",
     "category": "extra",
-    "type": ["chocolate", "crunch"]
+    "type": [
+      "chocolate",
+      "crunch"
+    ]
   },
   {
     "title": "Dark Chocolate Shavings",
     "price": 0.15,
-    "image": "./images/ingredients/shavings.jpg",
+    "image": "images/ingredients/shavings.jpg",
     "category": "extra",
     "type": "chocolate"
   },
   {
     "title": "Crushed Biscoff",
     "price": 0.10,
-    "image": "./images/ingredients/crushed_biscoff.jpg",
+    "image": "images/ingredients/crushed_biscoff.jpg",
     "category": "extra",
     "type": "crunch"
   },
   {
     "title": "Rainbow Sprinkles",
     "price": 0.10,
-    "image": "./images/ingredients/rainbow_sprinkles.jpg",
+    "image": "images/ingredients/rainbow_sprinkles.jpg",
     "category": "extra",
     "type": "crunch"
   },
   {
     "title": "Mini Meringues",
     "price": 0.15,
-    "image": "./images/ingredients/mini_meringues.jpg",
+    "image": "images/ingredients/mini_meringues.jpg",
     "category": "extra",
     "type": "crunch"
   },
   {
     "title": "Fresh Raspberries",
     "price": 0.25,
-    "image": "./images/ingredients/fresh_raspberries.jpg",
+    "image": "images/ingredients/fresh_raspberries.jpg",
     "category": "extra",
     "type": "fruit"
   },
   {
     "title": "Fresh Strawberries",
     "price": 0.25,
-    "image": "./images/ingredients/fresh_strawberries.jpg",
+    "image": "images/ingredients/fresh_strawberries.jpg",
     "category": "extra",
     "type": "fruit"
   },
   {
     "title": "Raspberry Popping Candy",
     "price": 0.15,
-    "image": "./images/ingredients/popping_candy.jpg",
+    "image": "images/ingredients/popping_candy.jpg",
     "category": "extra",
-    "type": ["fruit", "crunch"]
+    "type": [
+      "fruit",
+      "crunch"
+    ]
   }
 ]

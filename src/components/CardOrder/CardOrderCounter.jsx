@@ -8,6 +8,7 @@ const buttonMotion = {
 
 function CardOrderCounter({ quantity, orderId }) {
   const { updateQuantity, removeProduct } = useShop();
+  const basePath = import.meta.env.VITE_BASE_PATH || '';
 
   const handleIncrement = () => {
     updateQuantity(orderId, quantity + 1);
@@ -23,22 +24,22 @@ function CardOrderCounter({ quantity, orderId }) {
 
   return (
     <div className="card-order__counter">
-        <motion.button 
-          aria-label="Decrease quantity" 
-          onClick={handleDecrement}
-          {...buttonMotion}
-        >
-            <img src="./images/icon_minus.svg" alt=""/>
-        </motion.button>
-        <span>{quantity}</span>
-        <motion.button 
-          aria-label="Increase quantity" 
-          onClick={handleIncrement}
-          {...buttonMotion}
-        >
-            <img src="./images/icon_plus.svg" alt=""/>
-        </motion.button>
-    </div>  
+      <motion.button
+        aria-label="Decrease quantity"
+        onClick={handleDecrement}
+        {...buttonMotion}
+      >
+        <img src={`${basePath}/images/icon_minus.svg`} alt="" />
+      </motion.button>
+      <span>{quantity}</span>
+      <motion.button
+        aria-label="Increase quantity"
+        onClick={handleIncrement}
+        {...buttonMotion}
+      >
+        <img src={`${basePath}/images/icon_plus.svg`} alt="" />
+      </motion.button>
+    </div>
   )
 }
 

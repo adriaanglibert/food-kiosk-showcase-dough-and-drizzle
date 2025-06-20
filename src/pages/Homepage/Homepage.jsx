@@ -6,6 +6,8 @@ import Title from '../../components/Titles/Title';
 import Subtitle from '../../components/Titles/Subtitle';
 
 function Homepage() {
+  const basePath = import.meta.env.VITE_BASE_PATH || '';
+
   return (
     <div className="homepage">
       <header className="homepage__header">
@@ -17,13 +19,13 @@ function Homepage() {
         <Subtitle color="dark-contrast">Order here</Subtitle>
 
         <section className="homepage__buttons">
-          <Button variant="square" icon="cutlery" text='Eat In' to='/select-base'/>
-          <Button variant="square" icon="basket" text='Take Out' to='/select-base'/>
+          <Button variant="square" icon="cutlery" text='Eat In' to='/select-base' />
+          <Button variant="square" icon="basket" text='Take Out' to='/select-base' />
         </section>
       </main>
 
       <footer className="homepage__footer">
-        <img src="./images/images_footer.png" alt="decorative image with cookies" />
+        <img src={`${basePath}/images/images_footer.png`} alt="decorative image with cookies" />
       </footer>
     </div>
   );

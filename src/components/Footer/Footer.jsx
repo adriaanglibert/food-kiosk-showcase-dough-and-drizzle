@@ -11,6 +11,7 @@ const iconMotion = {
 function Footer({ className, activePage }) {
   const navigate = useNavigate();
   const { startNewProduct, products } = useShop();
+  const basePath = import.meta.env.VITE_BASE_PATH || '';
 
   const handleSelectBaseClick = (e) => {
     e.preventDefault();
@@ -40,7 +41,7 @@ function Footer({ className, activePage }) {
               >
                 <img
                   className="footer__icon"
-                  src="/images/icon_home.svg"
+                  src={`${basePath}/images/icon_home.svg`}
                   alt=""
                   aria-hidden="true"
                 />

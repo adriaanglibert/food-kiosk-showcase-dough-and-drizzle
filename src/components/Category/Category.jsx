@@ -6,7 +6,8 @@ const categoryMotion = {
   whileTap: { scale: 0.90 }
 };
 
-function Category ({ categories, activeCategory, onCategorySelect }) {
+function Category({ categories, activeCategory, onCategorySelect }) {
+  const basePath = import.meta.env.VITE_BASE_PATH || '';
   return (
     <nav aria-label="Category filter">
       <ul className="category">
@@ -22,7 +23,7 @@ function Category ({ categories, activeCategory, onCategorySelect }) {
                 {...categoryMotion}
               >
                 <figure className="category__icon">
-                  <img src={`./images/${cat.icon}.svg`} alt={cat.icon} />
+                  <img src={`${basePath}/images/${cat.icon}.svg`} alt={cat.icon} />
                 </figure>
                 <p className="category__text">{cat.name}</p>
               </motion.button>

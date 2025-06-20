@@ -11,50 +11,51 @@ function Button({ variant, icon, text, to, onClick }) {
   const buttonClass = `button button--${variant}`;
   const iconClass = `button--${variant}__icon`;
   const textClass = `button--${variant}__text`;
-  
+  const basePath = import.meta.env.VITE_BASE_PATH || '';
+
   if (onClick && to) {
     return (
-      <motion.button 
-        className={buttonClass} 
+      <motion.button
+        className={buttonClass}
         onClick={onClick}
         {...buttonMotion}
       >
-        {icon && <img className={iconClass} src={`./images/${icon}.svg`} alt="" />}
+        {icon && <img className={iconClass} src={`${basePath}/images/${icon}.svg`} alt="" />}
         <span className={textClass}>{text}</span>
       </motion.button>
     );
   }
-  
+
   if (onClick) {
     return (
-      <motion.button 
-        className={buttonClass} 
+      <motion.button
+        className={buttonClass}
         onClick={onClick}
         {...buttonMotion}
       >
-        {icon && <img className={iconClass} src={`./images/${icon}.svg`} alt="" />}
+        {icon && <img className={iconClass} src={`${basePath}/images/${icon}.svg`} alt="" />}
         <span className={textClass}>{text}</span>
       </motion.button>
     );
   }
-  
+
   if (to) {
     return (
       <motion.div {...buttonMotion}>
         <Link to={to} className={buttonClass}>
-          {icon && <img className={iconClass} src={`./images/${icon}.svg`} alt="" />}
+          {icon && <img className={iconClass} src={`${basePath}/images/${icon}.svg`} alt="" />}
           <span className={textClass}>{text}</span>
         </Link>
       </motion.div>
     );
   }
-  
+
   return (
-    <motion.button 
+    <motion.button
       className={buttonClass}
       {...buttonMotion}
     >
-      {icon && <img className={iconClass} src={`./images/${icon}.svg`} alt="" />}
+      {icon && <img className={iconClass} src={`${basePath}/images/${icon}.svg`} alt="" />}
       <span className={textClass}>{text}</span>
     </motion.button>
   );

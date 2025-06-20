@@ -7,6 +7,7 @@ import { useNavigate } from 'react-router';
 
 function Confirmation() {
   const navigate = useNavigate();
+  const basePath = import.meta.env.VITE_BASE_PATH || '';
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -22,7 +23,7 @@ function Confirmation() {
         <Title color="dark-contrast">Thank you for<br />your order!</Title>
         <Subtitle color="dark-contrast">Freshly baked happiness is coming<br />your way!</Subtitle>
 
-        <img className="confirmation__gif" src="./images/gif1.gif" alt="Filled cookie jar emptying fast" />
+        <img className="confirmation__gif" src={`${basePath}/images/gif1.gif`} alt="Filled cookie jar emptying fast" />
 
         <small style={{ fontFamily: "'Mada', sans-serif" }} className='text-brand-detail'>In 5 seconds you will be able to buy even more cookies!</small>
       </main>

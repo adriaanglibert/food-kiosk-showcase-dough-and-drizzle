@@ -16,6 +16,7 @@ const buttonMotion = {
 function LanguageMenu() {
   const [selected, setSelected] = useState('en');
   const selectedLang = languages.find(l => l.code === selected);
+  const basePath = import.meta.env.VITE_BASE_PATH || '';
 
   return (
     <nav className="language-menu" aria-label="Language selector">
@@ -31,7 +32,7 @@ function LanguageMenu() {
         aria-label="Change language"
         {...buttonMotion}
       >
-        <img src={selectedLang.img} alt={`Selected language: ${selectedLang.alt}`} />
+        <img src={`${basePath}/${selectedLang.img}`} alt={`Selected language: ${selectedLang.alt}`} />
       </motion.label>
       <ul className="language-menu__list">
         {languages.filter(l => l.code !== selected).map(lang => (
@@ -45,7 +46,7 @@ function LanguageMenu() {
               }}
               {...buttonMotion}
             >
-              <img src={lang.img} alt={lang.alt} />
+              <img src={`${basePath}/${lang.img}`} alt={lang.alt} />
             </motion.button>
           </li>
         ))}

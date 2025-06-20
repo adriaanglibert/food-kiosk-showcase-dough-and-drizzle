@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import { createBrowserRouter, RouterProvider, Routes, Route, useLocation, BrowserRouter } from 'react-router-dom'
+import { Routes, Route, useLocation, HashRouter } from 'react-router-dom'
 import Homepage from './pages/Homepage/Homepage'
 import SelectPage from './pages/SelectPage/SelectPage'
 import Order from './pages/Order/Order'
@@ -62,9 +61,9 @@ function App() {
   return (
     <div className="App">
       <ShopProvider>
-        <BrowserRouter>
+        <HashRouter>
           <AnimatedRoutes />
-        </BrowserRouter>
+        </HashRouter>
       </ShopProvider>
     </div>
   )

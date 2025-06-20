@@ -1,0 +1,38 @@
+:root {
+  /*Primitives*/
+  --xs: 0.625rem;
+  --sm: 0.75rem;
+  --base: 1rem;
+  --md: 1.5rem;
+  --lg: 2.25rem;
+  --xl: 4rem;
+  --xxl: 8rem;
+
+  --dark-purple: #592e74;
+  --dark-purple-faded: #815f96;
+  --pink: #f4aed7;
+  --chocolate: #301d19;
+  --gold: #d0a53e;
+  --transparent-gold: #d0a53e33;
+  --pale-yellow: #e7d7b1;
+
+  /*Tokens*/
+
+  --spacing-small: var(--xs);
+  --spacing-base: var(--base);
+  --spacing-medium: var(--md);
+  --spacing-large: var(--xl);
+  --spacing-extra-large: var(--xxl);
+
+  --brand: var(--dark-purple);
+  --dark: var(--chocolate);
+  --light-contrast: var(--pale-yellow);
+  --dark-contrast: var(--gold);
+  --medium-contrast: var(--transparent-gold);
+  --brand-detail: var(--pink);
+
+  --font-small: clamp(var(--sm), 1vw + 0.5rem, var(--md));
+  --font-medium: clamp(var(--md), 1.5vw + 0.75rem, var(--lg));
+  --font-large: clamp(var(--lg), 2vw + 1rem, var(--xl));
+  --font-extra-large: clamp(var(--xl), 3vw + 2rem, var(--xxl));
+}

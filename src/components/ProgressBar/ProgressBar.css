@@ -1,0 +1,48 @@
+.progress-bar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  max-width: 54rem;
+  margin: 1.25rem auto;
+  padding: 0 1.25rem;
+}
+
+.progress-bar__line {
+  position: absolute;
+  height: 1.5rem;
+  width: 85%;
+  background-color: var(--brand);
+  z-index: 1;
+}
+
+.progress-bar__step {
+  width: clamp(4rem, 10vw, 10rem);
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  background-color: var(--brand);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Lilita One", sans-serif;
+  font-size: var(--font-extra-large);
+  font-weight: 500;
+  line-height: var(--font-extra-large);
+  text-align: center;
+  color: var(--brand-detail);
+
+  position: relative;
+  z-index: 2;
+}
+
+.progress-bar__step--active {
+  outline: 1rem solid var(--dark-contrast);
+}
+
+.progress-bar__step--not-clickable {
+  background-color: var(--dark-purple-faded);
+}

@@ -1,0 +1,27 @@
+.confirmation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--brand);
+  background-image: url(../../images/background4.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 100% auto;
+  background-attachment: fixed;
+  min-height: 100svh;
+}
+
+.confirmation__main {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-large);
+  align-items: center;
+  padding-block: var(--spacing-large);
+}
+
+.confirmation__gif {
+  width: clamp(20rem, auto, 30svh);
+  max-height: 30svh;
+  aspect-ratio: 1 / 1;
+  border-radius: 16px;
+}

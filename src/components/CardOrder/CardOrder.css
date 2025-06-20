@@ -1,0 +1,65 @@
+.card-order {
+  background-color: var(--medium-contrast);
+  border-radius: 16px;
+  width: 61rem;
+
+  color: var(--dark);
+  font-family: "Mada", sans-serif;
+  font-size: var(--font-medium);
+
+  display: flex;
+  gap: var(--spacing-medium);
+  align-items: center;
+
+  position: relative;
+}
+
+.card-order__image {
+  width: 18rem;
+}
+
+.card-order__content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 1rem 0;
+  width: 27rem;
+}
+
+.card-order__list {
+  list-style: none;
+  padding: 0 1rem;
+
+  & li:first-child {
+    font-weight: 700;
+  }
+}
+
+.card-order__counter {
+  background-color: var(--brand);
+  border-radius: 16px;
+  color: var(--brand-detail);
+  height: 5rem;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-base);
+}
+
+.card-order__counter button {
+  background-color: var(--brand);
+  border: none;
+  border-radius: 16px;
+}
+
+.card-order__counter button img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.card-order__bite {
+  position: absolute;
+  top: -1.5rem;
+  right: -2.5rem;
+}

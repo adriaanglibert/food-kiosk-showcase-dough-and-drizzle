@@ -1,0 +1,36 @@
+.homepage {
+  background-color: var(--brand);
+  background-image: url(../../images/background1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100svh;
+}
+
+.homepage__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100svh;
+  gap: var(--spacing-large);
+  padding-block: var(--spacing-large);
+  align-items: center;
+}
+
+.homepage__buttons {
+  display: flex;
+  gap: var(--spacing-large);
+  z-index: 1;
+}
+
+.homepage__footer {
+  max-width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.homepage__footer img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

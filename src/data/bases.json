@@ -1,0 +1,74 @@
+[
+  {
+    "image": "/images/ingredients/chocolate_chip.jpg",
+    "title": "Chocolate Chip Cookie",
+    "price": 3.50,
+    "link": "/select-topping",
+    "category": "base",
+    "type": "cookie"
+  },
+  {
+    "image": "/images/ingredients/triple_chocolate.jpg",
+    "title": "Triple Chocolate Cookie",
+    "price": 4.00,
+    "link": "/select-topping",
+    "category": "base",
+    "type": "cookie"
+  },
+  {
+    "image": "/images/ingredients/sprinkle_cookie.jpg",
+    "title": "Sprinkle Cookie",
+    "price": 4.00,
+    "link": "/select-topping",
+    "category": "base",
+    "type": "cookie"
+  },
+  {
+    "image": "/images/ingredients/red_velvet.jpg",
+    "title": "Red Velvet Cookie",
+    "price": 4.00,
+    "link": "/select-topping",
+    "category": "base",
+    "type": "cookie"
+  },
+  {
+    "image": "/images/ingredients/cardemom.jpg",
+    "title": "Chewy Cardamom Cookie",
+    "price": 4.00,
+    "link": "/select-topping",
+    "category": "base",
+    "type": "cookie"
+  },
+  {
+    "image": "/images/ingredients/classic_brownie.jpg",
+    "title": "Classic Brownie",
+    "price": 3.50,
+    "link": "/select-topping",
+    "category": "base",
+    "type": "brownie"
+  },
+  {
+    "image": "/images/ingredients/orange_brownie.jpg",
+    "title": "Orange Brownie",
+    "price": 4.00,
+    "link": "/select-topping",
+    "category": "base",
+    "type": "brownie"
+  },
+  {
+    "image": "/images/ingredients/vanilla_sponge.jpg",
+    "title": "Vanilla Sponge Cake",
+    "price": 4.00,
+    "link": "/select-topping",
+    "category": "base",
+    "type": "cake"
+  },
+  {
+    "image": "/images/ingredients/poppy_seed.jpg",
+    "title": "Lemon Poppy Seed Cake",
+    "price": 4.00,
+    "link": "/select-topping",
+    "category": "base",
+    "type": "cake"
+  }
+]

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://adriaanglibert.github.io/food-kiosk-showcase-dough-and-drizzle/",
+  "homepage": "https://adriaanglibert.github.io/food-kiosk-showcase-dough-and-drizzle",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

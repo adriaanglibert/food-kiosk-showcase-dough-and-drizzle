@@ -6,6 +6,5 @@ const basePath = process.env.VITE_BASE_PATH || '/';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: basePath,
-  publicDir: basePath + '/public',
+  base: basePath
 })

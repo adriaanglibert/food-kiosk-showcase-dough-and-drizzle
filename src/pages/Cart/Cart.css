@@ -35,7 +35,7 @@
 }
 
 .cart__total {
-  width: 61rem;
+  width: 90%;
   font-family: "Mada", sans-serif;
   font-size: var(--font-medium);
   background-color: var(--medium-contrast);
@@ -48,7 +48,7 @@
 .cart__buttons {
   display: flex;
   justify-content: space-between;
-  width: 61rem;
+  width: 90%;
 }
 
 .cart__footer {

@@ -1,7 +1,9 @@
 .card-order {
   background-color: var(--medium-contrast);
   border-radius: 16px;
-  width: 61rem;
+  width: 90%;
+  margin-inline: auto;
+  padding-inline: var(--spacing-base);
 
   color: var(--dark);
   font-family: "Mada", sans-serif;
@@ -15,7 +17,8 @@
 }
 
 .card-order__image {
-  width: 18rem;
+  width: 100%;
+  max-width: clamp(5rem, 10rem + 1vw, 18rem);
 }
 
 .card-order__content {
@@ -23,7 +26,6 @@
   flex-direction: column;
   gap: 3rem;
   padding: 1rem 0;
-  width: 27rem;
 }
 
 .card-order__list {
